@@ -20,9 +20,6 @@
 
 👉 Swagger3
 
-![spring initializr](/Users/kwakwoohyun/Desktop/1.png)
-![spring initializr](/Users/kwakwoohyun/Desktop/2.png)
-
 ## 사용법
 
 ### `./gradlew clean build`
