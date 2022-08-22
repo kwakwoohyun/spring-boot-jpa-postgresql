@@ -30,7 +30,6 @@ public class BoardController {
     @Operation(summary = "create board", description = "게시판 작성 api")
     @PostMapping("")
     public GeneralResponse<?> createBoard(@RequestBody ReqCreateBoard req) {
-        log.info("request : {}", req);
         return boardService.createBoard(req);
     }
 
