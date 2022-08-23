@@ -20,10 +20,15 @@
 
 👉 Swagger3
 
-## 사용법
+## build
+```bash
+$ SPRING_PROFILES_ACTIVE=local ./gradlew clean build
+```
 
-### `./gradlew clean build`
-### `java -jar build/libs/***.jar --spring.profiles.acitve=local`
+## run
+```bash
+$ java -jar build/libs/***.jar --spring.profiles.acitve=local
+```
 
 ### 구조
 
